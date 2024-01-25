@@ -28,12 +28,6 @@ type CheckboxListProps = {
   getStateForId: (id: number) => CheckboxState;
 };
 
-type checkboxProps = {
-  isChecked?: boolean;
-  isIndeterminate?: boolean;
-  onClick?: () => void;
-};
-
 function CheckboxList({
   items,
   getStateForId,
