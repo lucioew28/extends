@@ -1,5 +1,6 @@
-import { Tree } from "@/components/Tree";
+import { Tree } from "@/components/extends-ui/tree";
 import { Button } from "@/components/ui/button";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Copy } from "lucide-react";
@@ -62,6 +63,70 @@ const data = [
   },
 ];
 
+const temp = `
+import { Tree } from "@/components/extends-ui/tree";
+
+const data = [
+  {
+    id: 1,
+    name: "Fruits",
+    parentId: 0,
+  },
+  {
+    id: 2,
+    name: "Apple",
+    parentId: 1,
+  },
+  {
+    id: 3,
+    name: "Pear",
+    parentId: 1,
+  },
+  {
+    id: 4,
+    name: "Banana",
+    parentId: 1,
+  },
+  {
+    id: 5,
+    name: "Countries",
+    parentId: 0,
+  },
+  {
+    id: 6,
+    name: "Netherlands",
+    parentId: 5,
+  },
+  {
+    id: 7,
+    name: "Scandinavia",
+    parentId: 5,
+  },
+  {
+    id: 8,
+    name: "Denmark",
+    parentId: 7,
+  },
+  {
+    id: 9,
+    name: "Norway",
+    parentId: 7,
+  },
+  {
+    id: 10,
+    name: "Sweden",
+    parentId: 7,
+  },
+  {
+    id: 11,
+    name: "Germany",
+    parentId: 5,
+  },
+];
+
+<Tree data={data} />
+`;
+
 export default function ComponentsPage() {
   return (
     <div className="py-6 w-full">
@@ -95,7 +160,13 @@ export default function ComponentsPage() {
         </TabsContent>
         <TabsContent value="code">
           <div className="border rounded flex items-center justify-center p-4">
-            <Tree data={data} />
+            <ScrollArea className="w-full h-[250px]">
+              <>
+                <pre className="w-full text-left">
+                  <code>{temp}</code>
+                </pre>
+              </>
+            </ScrollArea>
           </div>
         </TabsContent>
       </Tabs>
