@@ -4,6 +4,7 @@ import ComponentsPage from "@/pages/ComponentsPage";
 import HomePage from "@/pages/HomePage";
 import RootLayout from "@/components/RootLayout";
 import DocsPage from "@/pages/DocsPage";
+import Nav from "@/components/Nav";
 
 export default function AppRoutes() {
   return (
@@ -14,13 +15,15 @@ export default function AppRoutes() {
     //     <Route path="docs/tree" element={<ComponentsPage />} />
     //   </Route>
     // </Routes>
-
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="docs" element={<RootLayout />}>
-        <Route index element={<DocsPage />} />
-        <Route path="tree" element={<ComponentsPage />} />
-      </Route>
-    </Routes>
+    <>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="docs" element={<RootLayout />}>
+          <Route index element={<DocsPage />} />
+          <Route path="tree" element={<ComponentsPage />} />
+        </Route>
+      </Routes>
+    </>
   );
 }
