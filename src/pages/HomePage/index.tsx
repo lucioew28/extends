@@ -6,13 +6,13 @@ import { url } from "@/utils/links";
 
 export default function HomePage() {
   return (
-    <div className="flex flex-col gap-2 w-full items-center">
+    <div className="container flex flex-col gap-2 w-full h-[calc(100dvh-100px)] justify-center items-center">
       <h1 className="text-center text-3xl font-bold leading-tight tracking-tighter md:text-6xl lg:leading-[1.1]">
         Extends your component library
       </h1>
-      <h2 className="text-center text-lg text-muted-foreground sm:text-xl w-[500px]">
-        Beautifully designed components that you can copy and paste into your
-        apps. Accessible. Customizable. Open Source.
+      <h2 className="text-center text-lg text-muted-foreground sm:text-xl max-w-[600px]">
+        Collection of components built using shadcn/ui components and
+        principles. Accessible, customizable, and open source.
       </h2>
       <div className="flex items-center gap-4">
         <Link to={url.docs}>
