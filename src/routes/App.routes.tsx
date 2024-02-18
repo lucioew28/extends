@@ -5,6 +5,7 @@ import HomePage from "@/pages/HomePage";
 import RootLayout from "@/components/RootLayout";
 import DocsPage from "@/pages/DocsPage";
 import Nav from "@/components/Nav";
+import TreePage from "@/pages/Tree";
 
 export default function AppRoutes() {
   return (
@@ -21,7 +22,8 @@ export default function AppRoutes() {
         <Route path="/" element={<HomePage />} />
         <Route path="docs" element={<RootLayout />}>
           <Route index element={<DocsPage />} />
-          <Route path="tree" element={<ComponentsPage />} />
+          {/* <Route path="tree" element={<ComponentsPage />} /> */}
+          <Route path="tree" element={<TreePage />} />
         </Route>
       </Routes>
     </>
