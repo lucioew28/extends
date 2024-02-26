@@ -1,3 +1,4 @@
+import { Step } from "@/components/Step";
 import { Text } from "@/components/Text";
 import { Tree } from "@/components/extends-ui/tree";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -165,12 +166,38 @@ export default function TreePage() {
         </TabsContent>
       </Tabs>
       <Text.Title variant={"h2"} text={"Installation"} />
-      <div className="w-full border-l relative">
-        <span className="w-7 h-7 rounded-full border bg-gray-200 absolute top-0 left-0 flex items-center justify-center">
-          1
-        </span>
-        hello
-      </div>
+
+      <Step.Root>
+        <Step.Count count={1} />
+        <Step.Content>
+          <Step.Title>Install the following dependencies:</Step.Title>
+          <div className="w-full">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              eos, earum aut voluptatibus mollitia placeat, aliquid quam rem
+              fuga nemo quos voluptatum necessitatibus maxime fugiat aspernatur
+              repellat possimus. Maiores ducimus velit reiciendis sapiente nemo?
+            </p>
+          </div>
+        </Step.Content>
+      </Step.Root>
+
+      <Step.Root>
+        <Step.Count count={2} />
+        <Step.Content>
+          <Step.Title>
+            Copy and paste the following code into your project.
+          </Step.Title>
+          <div className="w-full">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              eos, earum aut voluptatibus mollitia placeat, aliquid quam rem
+              fuga nemo quos voluptatum necessitatibus maxime fugiat aspernatur
+              repellat possimus. Maiores ducimus velit reiciendis sapiente nemo?
+            </p>
+          </div>
+        </Step.Content>
+      </Step.Root>
     </div>
   );
 }
