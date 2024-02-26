@@ -12,7 +12,7 @@ export default function RootLayout({ children }: RootLayoutType): ReactElement {
   return (
     <PageWrapper>
       <div className="flex items-start">
-        <div className="py-6 max-w-[260px] w-full">
+        <div className="py-6 max-w-[260px] w-full hidden sm:block">
           <h4 className="mb-1 rounded-md px-2 py-1 text-sm font-semibold">
             Components
           </h4>
