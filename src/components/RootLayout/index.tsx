@@ -2,6 +2,8 @@ import { ReactNode, ReactElement } from "react";
 import { Link, Outlet } from "react-router-dom";
 import PageWrapper from "../PageWrapper";
 
+import { Badge } from "@/components/ui/badge";
+
 type RootLayoutType = {
   children?: ReactNode;
 };
@@ -15,17 +17,16 @@ export default function RootLayout({ children }: RootLayoutType): ReactElement {
             Components
           </h4>
           <Link
-            to={"/docs/tree"}
+            to={"/components/tree"}
             className="group flex w-full items-center rounded-md border border-transparent px-2 py-1 hover:underline text-muted-foreground"
           >
             Tree
           </Link>
-          <Link
-            to={"/docs/upload-area"}
-            className="group flex w-full items-center rounded-md border border-transparent px-2 py-1 hover:underline text-muted-foreground"
-          >
-            Upload Area
-          </Link>
+
+          <span className="group hover:cursor-not-allowed flex gap-2 w-full items-center rounded-md border border-transparent px-2 py-1 text-muted-foreground ">
+            <p>Upload Area</p>
+            <Badge>Soon</Badge>
+          </span>
         </div>
         {children}
         <Outlet />

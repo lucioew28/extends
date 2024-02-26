@@ -15,7 +15,7 @@ export default function HomePage() {
         principles. Accessible, customizable, and open source.
       </h2>
       <div className="flex items-center gap-4">
-        <Link to={url.docs}>
+        <Link to={url.components}>
           <Button>Get Started</Button>
         </Link>
         <Link to={url.gitHub} target="_blank">
