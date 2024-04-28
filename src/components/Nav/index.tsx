@@ -13,10 +13,8 @@ export default function Nav() {
       <div className="container flex h-14 max-w-screen-2xl items-center justify-between">
         <div className="items-center gap-8 hidden sm:flex">
           <Link to={"/"} className="flex items-center gap-2">
-            <div className="bg-gray-600 p-1 rounded-sm">
-              <img src="/extends.svg" alt="" className="w-full h-6" />
-            </div>
-            <p className="hidden font-bold sm:inline-block">extends</p>
+            <img src="/extends_black.svg" alt="" className="w-full h-6" />
+            <p className="hidden font-bold sm:inline-block">Extends</p>
           </Link>
           <nav>
             <ul className="flex items-center gap-4">
