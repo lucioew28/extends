@@ -3,7 +3,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Link } from "react-router-dom";
 
 import { url } from "@/utils/links";
-import { Map, MapMarker } from "@/components/extends-ui/map";
+// import { Map, MapMarker } from "@/components/extends-ui/map";
 
 export default function HomePage() {
   return (
