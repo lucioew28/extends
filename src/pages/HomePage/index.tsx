@@ -27,11 +27,11 @@ export default function HomePage() {
         </Link>
       </div>
 
-      <Map position={[-19.6, -40.6]}>
+      {/* <Map position={[-19.6, -40.6]}>
         <MapMarker position={[-20.3155, -40.3128]}>
           <p>Simple marker</p>
         </MapMarker>
-      </Map>
+      </Map> */}
     </div>
   );
 }
