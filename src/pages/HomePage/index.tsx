@@ -3,7 +3,6 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Link } from "react-router-dom";
 
 import { url } from "@/utils/links";
-// import { Map, MapMarker } from "@/components/extends-ui/map";
 
 export default function HomePage() {
   return (
@@ -26,12 +25,6 @@ export default function HomePage() {
           </Button>
         </Link>
       </div>
-
-      {/* <Map position={[-19.6, -40.6]}>
-        <MapMarker position={[-20.3155, -40.3128]}>
-          <p>Simple marker</p>
-        </MapMarker>
-      </Map> */}
     </div>
   );
 }

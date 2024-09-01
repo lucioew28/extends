@@ -25,7 +25,7 @@ export default function RootLayout({ children }: RootLayoutType): ReactElement {
                 Tree
               </Link>
               <span className="group hover:cursor-not-allowed flex gap-2 w-full items-center rounded-md border border-transparent px-2 py-1 text-muted-foreground ">
-                <p>Upload Area</p>
+                <p>Map</p>
                 <Badge>Soon</Badge>
               </span>
             </div>

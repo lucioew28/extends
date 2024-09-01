@@ -5,6 +5,8 @@ import RootLayout from "@/components/RootLayout";
 import Nav from "@/components/Nav";
 import TreePage from "@/pages/Tree";
 
+import MapPage from "@/pages/map";
+
 export default function AppRoutes() {
   return (
     <>
@@ -13,6 +15,7 @@ export default function AppRoutes() {
         <Route path="/" element={<HomePage />} />
         <Route path="components" element={<RootLayout />}>
           <Route path="tree" element={<TreePage />} />
+          <Route path="map" element={<MapPage />} />
         </Route>
       </Routes>
     </>

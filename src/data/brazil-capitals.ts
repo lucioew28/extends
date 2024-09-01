@@ -1,0 +1,167 @@
+export const brazilCapitals = [
+  {
+    state: "AC",
+    capital: "Rio Branco",
+    description: "Known for its Amazon rainforest.",
+    cords: [-9.97499, -67.8243],
+  },
+  {
+    state: "AL",
+    capital: "Maceió",
+    description: "Famous for its beautiful beaches.",
+    cords: [-9.66599, -35.735],
+  },
+  {
+    state: "AM",
+    capital: "Manaus",
+    description: "The gateway to the Amazon rainforest.",
+    cords: [-3.11903, -60.0217],
+  },
+  {
+    state: "AP",
+    capital: "Macapá",
+    description: "The only capital in Brazil located on the equator.",
+    cords: [0.034934, -51.0694],
+  },
+  {
+    state: "BA",
+    capital: "Salvador",
+    description: "Known for its Afro-Brazilian culture.",
+    cords: [-12.9714, -38.5014],
+  },
+  {
+    state: "CE",
+    capital: "Fortaleza",
+    description: "Famous for its cultural diversity and beaches.",
+    cords: [-3.71722, -38.5434],
+  },
+  {
+    state: "DF",
+    capital: "Brasília",
+    description:
+      "The federal capital of Brazil, known for its modern architecture.",
+    cords: [-15.8267, -47.9218],
+  },
+  {
+    state: "ES",
+    capital: "Vitória",
+    description: "An island capital known for its port.",
+    cords: [-20.3155, -40.3128],
+  },
+  {
+    state: "GO",
+    capital: "Goiânia",
+    description: "A modern city in the central region of Brazil.",
+    cords: [-16.6864, -49.2643],
+  },
+  {
+    state: "MA",
+    capital: "São Luís",
+    description: "Known for its colonial architecture and reggae music.",
+    cords: [-2.53874, -44.2825],
+  },
+  {
+    state: "MG",
+    capital: "Belo Horizonte",
+    description: "Known for its cuisine and the Pampulha Modern Ensemble.",
+    cords: [-19.9208, -43.9378],
+  },
+  {
+    state: "MS",
+    capital: "Campo Grande",
+    description:
+      "Gateway to the Pantanal, the world's largest tropical wetland.",
+    cords: [-20.4697, -54.6201],
+  },
+  {
+    state: "MT",
+    capital: "Cuiabá",
+    description: "The geographical center of South America.",
+    cords: [-15.6014, -56.0979],
+  },
+  {
+    state: "PA",
+    capital: "Belém",
+    description: "Known for its cuisine and the Círio de Nazaré festival.",
+    cords: [-1.45502, -48.5024],
+  },
+  {
+    state: "PB",
+    capital: "João Pessoa",
+    description: "One of the greenest cities in the world.",
+    cords: [-7.1195, -34.845],
+  },
+  {
+    state: "PE",
+    capital: "Recife",
+    description: "Known as the 'Brazilian Venice' for its many waterways.",
+    cords: [-8.04756, -34.877],
+  },
+  {
+    state: "PI",
+    capital: "Teresina",
+    description: "The only northeastern capital not located on the coast.",
+    cords: [-5.09194, -42.8034],
+  },
+  {
+    state: "PR",
+    capital: "Curitiba",
+    description: "Famous for its urban planning and green spaces.",
+    cords: [-25.4284, -49.2733],
+  },
+  {
+    state: "RJ",
+    capital: "Rio de Janeiro",
+    description:
+      "Known for its beaches, carnival, and Christ the Redeemer statue.",
+    cords: [-22.9068, -43.1729],
+  },
+  {
+    state: "RN",
+    capital: "Natal",
+    description: "Known as the 'City of the Sun' for its year-round sunshine.",
+    cords: [-5.79448, -35.211],
+  },
+  {
+    state: "RO",
+    capital: "Porto Velho",
+    description: "A gateway to the Amazon River.",
+    cords: [-8.76116, -63.9039],
+  },
+  {
+    state: "RR",
+    capital: "Boa Vista",
+    description: "The only Brazilian capital entirely north of the equator.",
+    cords: [2.82384, -60.6753],
+  },
+  {
+    state: "RS",
+    capital: "Porto Alegre",
+    description: "Known for its rich cultural life and gaucho traditions.",
+    cords: [-30.0346, -51.2177],
+  },
+  {
+    state: "SC",
+    capital: "Florianópolis",
+    description: "An island capital known for its beaches and surfing.",
+    cords: [-27.5954, -48.548],
+  },
+  {
+    state: "SE",
+    capital: "Aracaju",
+    description: "Known for its quiet beaches and colonial architecture.",
+    cords: [-10.9472, -37.0731],
+  },
+  {
+    state: "SP",
+    capital: "São Paulo",
+    description: "The largest city in Brazil and a major financial hub.",
+    cords: [-23.5505, -46.6333],
+  },
+  {
+    state: "TO",
+    capital: "Palmas",
+    description: "The youngest state capital in Brazil.",
+    cords: [-10.2491, -48.3243],
+  },
+];
